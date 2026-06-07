@@ -392,3 +392,172 @@ body {
 .work_together .img_container {
   display: flex;
 }
+
+/* 
+ddddddddddddddddd */
+
+.extension_section {
+  background-image: url("/whitespace/assets/images/background_image_hero.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  padding: var(--space-20) var(--space-4);
+  color: var(--color-secondary_4);
+  gap: var(--space-24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.extension_section .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.extension_section .heading h4 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.extension_section .heading p {
+  text-align: center;
+}
+
+.extension_section.heading .trial_button {
+  color: var(--color-secondary_4);
+  background-color: var(--color-primary-hover);
+  display: flex;
+  padding: var(--space-6) var(--space-10);
+  gap: var(--space-3);
+}
+
+.extension_section .img_container {
+  display: flex;
+}
+
+/* 
+ddddddddddddddddd */
+
+.customize_section {
+  background-color: var(--color-bg);
+  height: auto;
+  width: 100%;
+  padding: var(--space-20) var(--space-4);
+  color: var(--color-secondary_5);
+  gap: var(--space-24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.customize_section .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.customize_section .heading h4 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.customize_section .svg_bg_test {
+  background-image: url("/whitespace/assets/images/ElementFinalUnderline.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom -5px center; /* ajustá el -5px según necesites */
+  padding-bottom: 20px; /* dale espacio para que se vea */
+}
+
+.customize_section .heading p {
+  text-align: center;
+}
+
+.customize_section .heading .trial_button {
+  color: var(--color-secondary_4);
+  background-color: var(--color-primary-hover);
+  display: flex;
+  padding: var(--space-6) var(--space-10);
+  gap: var(--space-3);
+}
+
+/* awdawfaqwdawd*/
+
+.pricing_section {
+  height: auto;
+  width: 100%;
+  background-color: #043873;
+  padding: var(--space-20) var(--space-4);
+  color: var(--color-secondary_4);
+  gap: var(--space-16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--space-12);
+}
+.pricing_section p {
+  text-align: center;
+}
+
+.pricing_section .headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.pricing_section h4 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.pricing_section .headline .price {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.pricing_section .list_points {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  align-items: start;
+  justify-content: start;
+}
+
+.pricing_section .list_points li {
+  display: flex;
+  gap: var(--space-1);
+  padding: var(--space-4);
+}
+
+.pricing_section .list_points li img {
+  padding: var(--space-2);
+}
+.pricing_section .list_points li p {
+  text-align: start;
+}
+
+.pricing_section .trial_button {
+  color: var(--color-secondary_4);
+  background-color: var(--color-primary-hover);
+  display: flex;
+  padding: var(--space-6) var(--space-10);
+  gap: var(--space-3);
+  border-radius: var(--space-10);
+}
+
+.pricing_section .slider {
+  background-color: var(--color-secondary_4);
+  padding: var(--space-10) var(--space-16);
+  width: 100%;
+}
