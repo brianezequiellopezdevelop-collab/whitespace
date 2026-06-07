@@ -245,7 +245,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 800px;
+  height: auto;
   width: 100%;
   padding: var(--space-20) var(--space-4);
   color: var(--color-secondary_4);
@@ -282,5 +282,113 @@ body {
 }
 
 .hero_section .img_container {
+  display: flex;
+}
+
+/* WORK MANAGMENT */
+
+.work_managment {
+  background-color: var(--color-bg);
+  height: auto;
+  width: 100%;
+  padding: var(--space-20) var(--space-4);
+  color: var(--color-secondary_5);
+  gap: var(--space-24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.work_managment .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.work_managnment .heading h4 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.svg_bg_test {
+  background-image: url("/whitespace/assets/images/ElementFinalUnderline.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom -5px center; /* ajustá el -5px según necesites */
+  padding-bottom: 20px; /* dale espacio para que se vea */
+}
+
+.work_managment .heading p {
+  text-align: center;
+}
+
+.work_managment .heading .trial_button {
+  color: var(--color-secondary_4);
+  background-color: var(--color-primary-hover);
+  display: flex;
+  padding: var(--space-6) var(--space-10);
+  gap: var(--space-3);
+}
+
+.work_managment .img_container {
+  display: flex;
+}
+
+/* UNDERLINE TITLE */
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.work_together {
+  background-color: var(--color-bg);
+  height: auto;
+  width: 100%;
+  padding: var(--space-20) var(--space-4);
+  color: var(--color-secondary_5);
+  gap: var(--space-24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.work_together .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.work_together .heading h4 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.svg_bg_test {
+  background-image: url("/whitespace/assets/images/ElementFinalUnderline.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom -5px center; /* ajustá el -5px según necesites */
+  padding-bottom: 20px; /* dale espacio para que se vea */
+}
+
+.work_together .heading p {
+  text-align: center;
+}
+
+.work_together .heading .trial_button {
+  color: var(--color-secondary_4);
+  background-color: var(--color-primary-hover);
+  display: flex;
+  padding: var(--space-6) var(--space-10);
+  gap: var(--space-3);
+}
+
+.work_together .img_container {
   display: flex;
 }
