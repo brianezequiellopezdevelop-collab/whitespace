@@ -201,3 +201,35 @@ pre {
     scroll-behavior: auto !important;
   }
 }
+
+/* END CSS RESET AND TOKENS*/
+
+.header {
+  background-color: var(--color-primary);
+  padding: var(--space-4);
+  height: auto;
+  width: 100%;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.header .logo_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.header nav {
+  display: none;
+}
+
+.logo_icon img {
+  width: 20px;
+  height: 25px;
+}
+
+.logo_icon p {
+  font-weight: bold;
+}
